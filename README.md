@@ -36,7 +36,8 @@ Tras su lanzamiento, Arduino no dejó de evolucionar. Desde el Kit ADK de Google
 ![Yun](/src/ARDUINO_YUN.png)
 - **Arduino Mega 2560:** Para proyectos extensos. 
 ![Mega](/src/arduino-mega.png)
-- **Arduino Micro:** Pequeño pero poderoso. ![micro](/src/arduino-micro.jpg)
+- **Arduino Micro:** Pequeño pero poderoso.
+- ![micro](/src/arduino-micro.jpg)
 - **Arduino Nano:** Compacto y versátil. 
 ![nano](/src/arduino-nano.jpg)
 - **Arduino Pro Mini, Fio, Esplora:** Adaptabilidad en diversas situaciones. 

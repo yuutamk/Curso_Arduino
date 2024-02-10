@@ -26,14 +26,21 @@ Tras su lanzamiento, Arduino no dejó de evolucionar. Desde el Kit ADK de Google
 
 
 #### **Modelos de Arduino: Un Universo de Posibilidades**
-- **Arduino Uno:** La clásica. ![uno](/src/ArduinoUno_R3_y_usb.webp)
-- **Arduino Leonardo:** Con procesador ATmega32U4. ![leonardo](/src/arduino-leonardo.2.jpg)
-- **Arduino Due:** Potencia con ARM Cortex. ![DUE](/src/arduino-due.png)
-- **Arduino Yún:** Integración de Linux. ![Yun](/src/ARDUINO_YUN.png)
-- **Arduino Mega 2560:** Para proyectos extensos. ![Mega](/src/arduino-mega.png)
+- **Arduino Uno:** La clásica. 
+![uno](/src/ArduinoUno_R3_y_usb.webp)
+- **Arduino Leonardo:** Con procesador ATmega32U4. 
+![leonardo](/src/arduino-leonardo.2.jpg)
+- **Arduino Due:** Potencia con ARM Cortex. 
+![DUE](/src/arduino-due.png)
+- **Arduino Yún:** Integración de Linux. 
+![Yun](/src/ARDUINO_YUN.png)
+- **Arduino Mega 2560:** Para proyectos extensos. 
+![Mega](/src/arduino-mega.png)
 - **Arduino Micro:** Pequeño pero poderoso. ![micro](/src/arduino-micro.jpg)
-- **Arduino Nano:** Compacto y versátil. ![nano](/src/arduino-nano.jpg)
-- **Arduino Pro Mini, Fio, Esplora:** Adaptabilidad en diversas situaciones. ![espora](/src/arduino-esplora.jpg)
+- **Arduino Nano:** Compacto y versátil. 
+![nano](/src/arduino-nano.jpg)
+- **Arduino Pro Mini, Fio, Esplora:** Adaptabilidad en diversas situaciones. 
+![espora](/src/arduino-esplora.jpg)
 
 #### **¿Qué Hacer con Arduino? ¡Todo es Posible!**
 - **Automatización del hogar:** Luces, persianas, electrodomésticos.
@@ -55,6 +62,7 @@ El entorno de desarrollo de Arduino es una joya para los amantes de la programac
 
 #### **Arduino en la Educación y la Industria**
 Desde aulas hasta fábricas, Arduino ha dejado huella. Su enfoque en la educación ha permitido que estudiantes de todas las edades se sumerjan en la electrónica y la programación de manera divertida y educativa. Además, en la industria, su versatilidad lo ha convertido en un aliado invaluable para la creación de prototipos y soluciones personalizadas.
+
 ![escuela](/src/arduino-escuela.jpg)
 
 #### **Explorando Funciones y Librerías**

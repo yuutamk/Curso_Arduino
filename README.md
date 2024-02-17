@@ -26,8 +26,7 @@ Tras su lanzamiento, Arduino no dejó de evolucionar. Desde el Kit ADK de Google
 
 
 #### **Modelos de Arduino: Un Universo de Posibilidades**
-- **Arduino Uno:** La clásica.
-
+- **Arduino Uno:** La clásica. 
 ![uno](/src/ArduinoUno_R3_y_usb.webp)
 - **Arduino Leonardo:** Con procesador ATmega32U4. 
 ![leonardo](/src/arduino-leonardo.2.jpg)
@@ -37,8 +36,7 @@ Tras su lanzamiento, Arduino no dejó de evolucionar. Desde el Kit ADK de Google
 ![Yun](/src/ARDUINO_YUN.png)
 - **Arduino Mega 2560:** Para proyectos extensos. 
 ![Mega](/src/arduino-mega.png)
-- **Arduino Micro:** Pequeño pero poderoso.
-- ![micro](/src/arduino-micro.jpg)
+- **Arduino Micro:** Pequeño pero poderoso. ![micro](/src/arduino-micro.jpg)
 - **Arduino Nano:** Compacto y versátil. 
 ![nano](/src/arduino-nano.jpg)
 - **Arduino Pro Mini, Fio, Esplora:** Adaptabilidad en diversas situaciones. 

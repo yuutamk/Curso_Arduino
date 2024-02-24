@@ -207,3 +207,100 @@ void loop() {
 ```
 
 En este caso, el LED se atenuará al 50% de brillo y luego se apagará alternativamente cada segundo.
+
+# Diodo
+
+[![Miniatura del video](https://i.ytimg.com/vi/aPY3I8pG478/hqdefault.jpg)](https://www.youtube.com/watch?v=aPY3I8pG478)
+
+
+## ¿Qué es un Diodo?
+Un **diodo** es un dispositivo semiconductor que actúa como un interruptor unidireccional para la corriente eléctrica. Imagina un puente que solo permite cruzar en una dirección, pero bloquea el camino de regreso. Así es como funciona un diodo.
+
+## Polarización Directa e Inversa
+Cuando un diodo permite que la corriente fluya en su dirección preferida, se encuentra en **polarización directa**. Por otro lado, cuando bloquea la corriente en la dirección opuesta, está en **polarización inversa**. Curiosamente, el símbolo del diodo apunta en sentido contrario al flujo real de electrones. Los ingenieros diseñaron esto para seguir la convención de la corriente convencional (de positivo a negativo).
+
+## Estructura de un Diodo
+Los diodos están formados por una **unión PN**, que combina dos tipos de materiales semiconductores: uno tipo P y otro tipo N. Los electrones fluyen solo en una dirección a través de esta unión. Es como si los diodos tuvieran un sentido único de tráfico electrónico.
+
+## Aplicaciones Creativas
+Aquí hay algunas ideas creativas para usar diodos:
+
+1. **Luces intermitentes**: Utiliza diodos para crear luces intermitentes en tus proyectos electrónicos.
+2. **Detectores de luz**: Construye un sensor de luz utilizando un diodo para activar o desactivar algo cuando la luz cambia.
+3. **Generador de energía solar casero**: Los diodos son esenciales en paneles solares para convertir la luz solar en electricidad.
+
+# LED
+
+[![Miniatura del video](https://i.ytimg.com/vi/dZz3eAnsspY/hqdefault.jpg)](https://www.youtube.com/watch?v=dZz3eAnsspY)
+
+# Potencia tus proyectos con diodos LED: la iluminación del futuro
+
+Los **diodos LED** (Light Emitting Diodes, por sus siglas en inglés) son componentes electrónicos esenciales en la construcción de circuitos de iluminación. Aunque pequeños en tamaño, su bajo consumo de energía y larga vida útil los hacen ideales para una amplia variedad de aplicaciones creativas. En este blog, exploraremos el fascinante mundo de los diodos LED y cómo pueden revolucionar tus proyectos.
+
+## ¿Qué son los diodos LED?
+
+Los diodos LED son dispositivos semiconductores que emiten luz cuando una corriente eléctrica pasa a través de ellos. A diferencia de las bombillas tradicionales, los LED no tienen filamento y no generan calor significativo. Esto los hace altamente eficientes y duraderos.
+
+## Beneficios de los diodos LED en proyectos de iluminación
+
+1. **Eficiencia energética**: Los LED consumen menos energía que las bombillas convencionales, lo que se traduce en ahorro en la factura eléctrica.
+2. **Larga vida útil**: Los diodos LED pueden durar hasta 25,000 horas o más, reduciendo la necesidad de reemplazo frecuente.
+3. **Versatilidad**: Se pueden utilizar en una variedad de aplicaciones, desde iluminación de interiores hasta espectáculos y señalizaciones.
+
+## Explorando posibilidades creativas
+
+### 1. Iluminación ambiental
+
+Los diodos LED son ideales para crear ambientes acogedores. Puedes incorporarlos en muebles, estanterías o incluso debajo de la cama para una iluminación suave y relajante.
+
+### 2. Señalización y decoración
+
+Utiliza LED para resaltar áreas específicas, como escaleras o pasillos. También puedes diseñar letreros personalizados o crear patrones luminosos en tus proyectos.
+
+### 3. Moda y diseño
+
+Integra diodos LED en prendas de vestir para efectos sorprendentes. ¿Por qué no añadir luces intermitentes a tu chaqueta o crear un vestido brillante para una ocasión especial?
+
+
+
+[![Miniatura del video](https://i.ytimg.com/vi/PugXcHWBt_M/hqdefault.jpg)](https://www.youtube.com/watch?v=PugXcHWBt_M)
+
+
+
+# La Ley de Ohm: Descifrando el Misterio Eléctrico
+
+Hoy nos sumergiremos en el intrigante mundo de la **Ley de Ohm**, una fórmula matemática que nos desvela los secretos detrás de los circuitos eléctricos. Así que, ajusten sus voltímetros y prepárense para un viaje lleno de electrones y resistencias.
+
+
+
+## La Ley de Ohm en Tres Palabras: Voltaje, Corriente y Resistencia
+
+La Ley de Ohm nos dice que la **corriente eléctrica** que fluye a través de un conductor es directamente proporcional al **voltaje** aplicado y, a su vez, inversamente proporcional a la **resistencia** del circuito. En otras palabras, es como si la electricidad tuviera su propio mantra: "Voltaje, Corriente y Resistencia, ¡todos juntos en armonía!"
+
+## Las Fórmulas Mágicas
+
+Aquí están las tres fórmulas mágicas que nos permiten desentrañar los misterios eléctricos:
+
+1. **Corriente (I)**: La cantidad de electrones que fluyen por un conductor. Se expresa en **amperios (A)**.
+   - I = V / R
+
+2. **Voltaje (V)**: La diferencia de potencial entre dos puntos. Piensen en él como la fuerza que impulsa a los electrones. Se mide en **voltios (V)**.
+   - V = I · R
+
+3. **Resistencia (R)**: El obstáculo que la corriente encuentra en su camino. Cuanto mayor sea, más difícil será para la corriente vencerlo. La unidad de resistencia es el **ohmio (Ω)**.
+   - R = V / I
+
+## Ejemplos Prácticos
+
+1. Imaginen un cable eléctrico con una resistencia baja (como un tobogán resbaladizo). La corriente fluirá rápidamente, ¡como niños bajando por el tobogán!
+2. Ahora, pongan una resistencia alta (como una pared de ladrillos) en el camino. La corriente se arrastrará lentamente, como si los niños intentaran escalar la pared.
+
+## Aplicaciones en la Vida Real
+
+La Ley de Ohm está en todas partes:
+- **Bombillas**: La resistencia de una bombilla determina su brillo. ¡Más resistencia, menos luz!
+- **Electrodomésticos**: ¿Por qué la tostadora se calienta? Porque la resistencia interna convierte la electricidad en calor.
+- **Circuitos electrónicos**: Los diseñadores de circuitos aplican la Ley de Ohm para crear dispositivos inteligentes.
+
+
+[![Miniatura del video](https://i.ytimg.com/vi/blUimcoNpKs/hqdefault.jpg)](https://www.youtube.com/watch?v=blUimcoNpKs)

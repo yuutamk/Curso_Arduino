@@ -304,3 +304,45 @@ La Ley de Ohm está en todas partes:
 
 
 [![Miniatura del video](https://i.ytimg.com/vi/blUimcoNpKs/hqdefault.jpg)](https://www.youtube.com/watch?v=blUimcoNpKs)
+
+# Monitor serial
+
+El **monitor serie** es una herramienta esencial en el mundo de Arduino. A través de esta consola, podemos comunicarnos con nuestra placa, depurar programas y obtener información valiosa sobre el funcionamiento de nuestro código. En este blog, exploraremos cómo funciona el monitor serie, sus funciones básicas y los estándares que debemos tener en cuenta.
+
+## ¿Qué es el Monitor Serie?
+
+El monitor serie es una consola de entrada y salida que nos permite interactuar con nuestra placa Arduino a través del puerto serial. Algunas de sus funciones clave son:
+
+1. **Visualización de Datos**: Podemos mostrar valores de variables, mensajes de texto y resultados de cálculos en tiempo real.
+2. **Depuración**: Es una herramienta invaluable para encontrar errores en nuestro código.
+3. **Comunicación Bidireccional**: Podemos enviar y recibir datos entre la placa y la computadora.
+
+## Funciones Básicas del Monitor Serie
+
+### `Serial.begin()`
+
+Esta función establece la velocidad de transmisión de datos en bits por segundo (baudios). Algunas velocidades comunes son 9600, 115200, etc. También podemos especificar la configuración (número de datos, paridad y bits de parada).
+
+```cpp
+void setup() {
+  Serial.begin(9600); // Configura la comunicación a 9600 baudios
+}
+```
+
+### `Serial.print()`
+
+Envía datos desde la placa Arduino al monitor serie. Puede ser cualquier tipo de dato: caracteres, cadenas, números enteros, etc.
+
+```cpp
+void loop() {
+  int sensorValue = analogRead(A0);
+  Serial.print("Valor del sensor: ");
+  Serial.println(sensorValue);
+}
+```
+
+### `Serial.end()`
+
+Cierra el canal serie, liberando los pines RX y TX para otras funciones.
+
+

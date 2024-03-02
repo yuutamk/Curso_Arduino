@@ -346,3 +346,50 @@ void loop() {
 Cierra el canal serie, liberando los pines RX y TX para otras funciones.
 
 
+## ¿Qué es un servomotor?
+
+
+[![Miniatura del video](https://i.ytimg.com/vi/qbKmI6_V_V8/maxresdefault.jpg)](https://www.youtube.com/watch?v=qbKmI6_V_V8)
+
+
+
+![servomotor](./src/servomotor.jpg)
+
+Un servomotor es un tipo especial de motor eléctrico con dos características clave:
+1. **Mantiene una posición específica**: Puede mantener una posición que le indiquemos, siempre que esté dentro de su rango de operación.
+2. **Control de velocidad de giro**: Podemos ajustar la velocidad de giro y hacer que espere antes de moverse a la siguiente posición.
+
+### Características técnicas del servomotor
+En este tutorial, utilizaremos un **Micro Servo 9g SG90 de Tower Pro**. Algunos detalles importantes:
+- Ángulo de giro: Puede barrer entre **-90° y 90°**, lo que equivale a un ángulo total de **180°**.
+- Resolución: Debido a la limitación de la señal PWM generada por Arduino UNO, la resolución máxima es de **1 grado**.
+
+### Conexionado con Arduino
+Las conexiones son sencillas:
+1. **Tierra (GND)**: Conecta el cable negro del servomotor a GND en Arduino.
+2. **Alimentación (5V)**: Conecta el cable rojo del servomotor a 5V en Arduino.
+3. **Señal (PWM)**: Conecta el cable amarillo o blanco del servomotor a un pin PWM en Arduino.
+
+### Programación del servomotor
+1. **Incorpora la librería** necesaria: Ve a **Programa > Include Library > Servo**.
+2. **Declaración del objeto servoMotor**:
+    ```cpp
+    #include <Servo.h>
+    Servo servoMotor; // Declaramos un objeto servoMotor
+    ```
+3. **Configuración y control**:
+    - **attach**: Indica el pin al que está conectado el servo.
+    - **write**: Establece el ángulo deseado (de 0° a 180°).
+    ```cpp
+    void setup() {
+        servoMotor.attach(pinServo); // Asigna el pin al servo
+    }
+
+    void loop() {
+        // Gira el servomotor de 0° a 180° en incrementos de 1 grado
+        for (int angle = 0; angle <= 180; angle++) {
+            servoMotor.write(angle);
+            delay(20); // Espera 20 ms antes de cambiar de posición
+        }
+    }
+    ```
